@@ -45,7 +45,7 @@ public class ResponseBodyController {
     public HelloData responseBodyJsonV2() throws IOException {
 
         HelloData helloData = new HelloData();
-        helloData.setUsername("userA");
+        helloData.setUsername("userB");
         helloData.setAge(12);
 
         return helloData;
